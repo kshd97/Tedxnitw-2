@@ -1,0 +1,7 @@
+{% extends "info/header.djt" %}
+{% load staticfiles %}
+{% block content %}
+
+This is Home page for you!!!
+
+{% endblock %}
