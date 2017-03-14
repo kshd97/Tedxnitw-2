@@ -1,0 +1,178 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <meta name="author" content="Priyam Khandelwal">
+  <meta name="description" content="TEDx NIT WARANGAL, 2016.">
+  <meta name="keywords" content="TEDx, NITW, Tedx NIT WARANGAL, 2017, Priyam Khandelwal">
+
+  <!-- Site Properties -->
+  <title>TedxNITW</title>
+  <link rel="icon" type="image/png" href="{% static 'icons/favicon-32x32.png' %}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{% static 'icons/favicon-194x194.png' %}" sizes="194x194">
+  <link rel="icon" type="image/png" href="{% static 'icons/favicon-96x96.png' %}" sizes="96x96">
+  <link rel="icon" type="image/png" href="{%static 'icons/android-chrome-192x192.png'%}" sizes="192x192">
+
+  <script src="{% static 'main/jquery-2.2.4.min.js' %}"></script>
+  <script src="{% static 'main/components/jquery.js' %}"></script>
+  <link rel="stylesheet" type="text/css" href="{% static 'main/bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/modern-business.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/font-awesome/font-awesome.min.css' %}">
+
+  <!-- <link rel="stylesheet" type="text/css" href="{% static 'main/demo.css' %}"> -->
+  <link rel="stylesheet" type="text/css" href="{% static 'main/footer.css' %}">
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+
+    <!-- Custom CSS -->
+
+    <!-- Custom typ'e="text/css" href="{% static 'main/modern-business.css"  Fonts -->
+
+  <link rel="icon" type="image/png" href="{% static 'icons/favicon-16x16.png' %}" sizes="16x16">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'main/semantic.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/reset.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/site.css' %}">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/container.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/grid.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/header.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/image.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/menu.css' %}">
+
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/divider.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/segment.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/form.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/input.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/button.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/list.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/message.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/icon.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/dropdown.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/accordion.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/button.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/icon.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/sidebar.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/components/transition.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+  <script src="{% static 'main/semantic.js' %}"></script>
+  <script src="{% static 'main/components/form.js' %}"></script>
+  <script src="{% static 'main/components/transition.js' %}"></script>
+  <script src="{% static 'main/components/dropdown.js' %}"></script>
+  <script src="{% static 'main/components/accordion.js' %}"></script>
+  <script src="{% static 'main/semantic.min.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+  <script src="{% static 'main/components/bootstrap.min.js' %}"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+</head>
+<!--  -->
+
+<!-- <div class="ui page grid main">
+  <div class="row">
+    <div class="column padding-reset">
+      <div class="ui large message">
+        <h1 class="ui huge header">Navbar example</h1>
+        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+        <p>To see the difference between static and fixed top navbars, just scroll.</p>
+        <br><br><br><br><br><br><br><br><br><br>
+        <a href="" class="ui blue button">View navbar docs »</a>
+      </div>
+    </div> -->
+    <body>
+    <style>
+      #nav_bar:hover{
+        color: red;
+        size: 12px
+
+      }
+      #myCarousel{
+        margin-top: 150px;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-bottom: 50px;
+      }
+      .container{
+        margin-top: 10px;
+      }
+      #News_Heading{
+        font-family: 'Inconsolata', monospace;
+        background-color: #000000;
+        color: red;
+      }
+      .col-lg-12{
+        margin-bottom: 30px;
+      }
+      .btn{
+        background-color: #000000;
+        color: red;
+      }
+      .college-lg-12{
+        margin-top: 50px;
+      }
+    </style>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="about.html" id="nav_bar">Home</a>
+                    </li>
+                    <li>
+                        <a href="services.html" id="nav_bar">|   Speakers</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" id="nav_bar">|   Partners</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" id="nav_bar">|   News</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" id="nav_bar">|   Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Header Carousel -->
+
+{% block content %}
+{% endblock %}
+
+
+{% block script %}
+{% endblock %}

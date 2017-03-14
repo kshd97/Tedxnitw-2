@@ -1,0 +1,209 @@
+{% extends "info/header.djt" %}
+{% load staticfiles %}
+{% block content %}
+<header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 1</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Marketing Icons Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Latest News
+                </h1>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading" id="News_Heading">
+                        <h4>Card 1</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading"  id="News_Heading">
+                        <h4>Card 2</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading"  id="News_Heading">
+                        <h4>Card 3</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, optio corporis quae nulla aspernatur in alias at numquam rerum ea excepturi expedita tenetur assumenda voluptatibus eveniet incidunt dicta nostrum quod?</p>
+                        <a href="#" class="btn btn-default">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Section -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">Speakers+Hosts</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="" width="400" height="284">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="" width="400" height="284">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="" width="400"
+                    height="284">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="" >
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-portfolio img-hover" src="http://placehold.it/700x450" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Features Section -->
+        <div class="row" style="border: 50px">
+
+            <div class="col-md-6">
+            	<h2>What is TED?</h2>
+            	<p>
+				TED is a global foundation devoted to Ideas Worth Spreading. It started out in 1984 as a conference bringing together people from three worlds: Technology, Entertainment, Design. Since then, its scope has become ever broader.
+				</p>
+
+				<h2>What is TEDx?</h2>
+				<p>
+				TEDx is a program by TED that gives communities around the world an opportunity to create their own TED-like experiences. At TEDx events, local speakers deliver talks and people spark in deep conversations.
+				</p>
+            </div>
+            <div class="col-md-6">
+               <!--  <img class="img-responsive" src="http://placehold.it/700x450" alt=""> -->
+               <iframe width="1080" height="608" class="img-responsive" src="https://www.youtube.com/embed/d0NHOpeczUU?feature=oembed" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+
+        <!-- Footer -->
+        <footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>TEDXNITW</h3>
+
+
+				<p class="footer-company-name">Company Name &copy; 2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>NITW</span> Warangal, Telangana</p><br>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+1 555 123456</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+
+
+</body>
+
+{% endblock %}

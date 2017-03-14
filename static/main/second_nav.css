@@ -1,0 +1,109 @@
+/** {
+  box-sizing: border-box;
+}*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-size: 18px;
+  margin-top: 5em;
+  color: #333;
+  background-image: url("http://thegravity.net/supernova/wp-content/uploads/2013/10/bg_15_big.jpg");
+  background-color: transparent;
+  background-size: cover;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  padding-top: 70px;
+}
+/* brand */
+#header .navbar .navbar-brand {
+margin: auto;
+padding: 0;
+max-width: 250px;
+max-height: 70px;
+color: #fff;
+text-transform: uppercase;
+text-shadow: none;
+position: absolute;
+top: 50%;
+  
+-webkit-transform: translate(0,-50%);
+-ms-transform: translate(0,-50%);
+transform: translate(0,-50%);
+}
+#header .navbar .navbar-brand img{
+  max-height: 100%;
+}
+.navbar .brand:hover, .navbar .navbar-brand:focus {
+text-decoration: none;
+}
+
+
+#header .navbar .nav > li > a {
+position: relative;
+padding-top: 40px;
+padding-bottom: 40px;
+color: rgba(0, 0, 0, .6);
+text-transform: uppercase;
+text-shadow: none;
+font-weight: 600;
+font-size: 14px;
+}
+
+.navbar{
+  background-color:rgba(255, 255, 255, .9);
+  
+}
+.nav>li{
+/*   color:#fff; */
+}
+
+.nav >li >a:hover, 
+.nav >li >a:focus,
+.nav > li.active > a, 
+.nav > li.active > a:hover,
+.nav > .active > a:focus
+{
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, .8)!important;
+  color: #fff;
+  box-shadow: 0 3px 0 rgb(106,168,66);
+}
+
+#header .sticky.navbar .nav > li > a {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+/* =====content test ===== */
+.content {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+
+}
+.content h1 {
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: -.015em;
+  padding: 1em 0;
+  text-align: center;
+  color: #fff;
+}
+
+p {
+  font-size: 1em;
+  line-height: 2;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em 0;
+  color: #fff;
+}
+
+
+footer{
+   background-color: rgba(255, 255, 255, .7);
+}
+footer > p {
+  padding: 10px;
+  color:#000;
+}
